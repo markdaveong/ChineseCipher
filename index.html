@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoChinese Cipher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <h1>CryptoChinese Cipher</h1>
+        <button id="voice-btn">Use Voice Input</button>
+        <button id="dark-mode-btn">Toggle Dark Mode</button>
+    </div>
+
+    <div class="container">
+        <!-- Input Area -->
+        <div class="input-area">
+            <textarea id="input-text" placeholder="Enter text to encrypt or decrypt"></textarea>
+        </div>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <button id="encrypt-btn">Encrypt</button>
+            <button id="decrypt-btn">Decrypt</button>
+            
+        </div>
+
+        <!-- Output Area -->
+        <div class="output-area">
+            <textarea id="output-text" placeholder="Output will appear here" readonly></textarea>
+        </div>
+
+        <!-- Info Card -->
+        <div class="info-card">
+            <h2>About CryptoChinese Cipher</h2>
+            <p>This cipher encrypts alphabets into unique Chinese-inspired symbols based on the provided hash map.</p>
+            <p>Use it to encrypt and decrypt messages easily!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
